@@ -15,9 +15,8 @@ This repository contains the code pertaining to various NLP techniques that were
 · Conducted Vector Space Modelling and Latent Dirichlet Allocation for topic modelling and compared the results
 
 ## Results:
-I'll include only the clustering result here as I am working on a detailed report for all the analyses that I have done and plan to do with this dataset. The both kinds of clustering indicate that there is little correlation, if at all, between the debates at both the parliamentary houses. Further, all the budget sessions have a very similar content and this is reflected in the document clustering also as there is significant clustering overlap between the budget sessions.
+I'll include only the K-Means clustering result here, due to space constrains, and include the rest in a report with all the analyses that I have done and plan to do with this dataset. Both kinds of clustering indicate that there is little correlation, if at all, between the debates at both the parliamentary houses. Further, all the budget sessions have a very similar content and this is reflected in the document clustering also as there is significant clustering overlap between the budget sessions.
 ![K-Means Clustering](https://github.com/achyudhk/Parliamentary-Debate-NLP/blob/master/data/KMeans_Clustering.png)
-![Hierarchial Clustering](https://github.com/achyudhk/Parliamentary-Debate-NLP/blob/master/data/Hierarchial_Clustering.png)
 
 ## Prerequisites:
 The project makes use of algorithms implemented in the Scikit-learn library for multi-dimensional scaling, evaluation metrics, K-Means and hierarchial clustering and Matplitlib for plotting the results. Stopword removal, Snowball Stemmer and WordNet Lemmatizer from the NLTK library were used to preprocess the corpora. Other dependencies include Pandas, Numpy, Scipy and Gensim.

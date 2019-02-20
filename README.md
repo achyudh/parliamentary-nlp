@@ -1,4 +1,6 @@
-# Identifying the trends in Indian Legislative Debates
+# Parliamentary NLP
+> Identifying the trends in Indian Legislative Debates over the last decade
+
 This repository contains the code pertaining to various NLP techniques that were used in the textual analysis of the Indian parliamentary debates. We collected data from Lok Sabha and Rajya Sabha since 2007, making up 10 years' worth of debates. The data collection was made using a web crawler and is not featured in this repository.
 
 ## Approach:
